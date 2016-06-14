@@ -1,0 +1,25 @@
+{
+  "name": "starter-kit",
+  "author": "eternalsky",
+  "version": "1.0.0",
+  "description": "UXCore starter kit",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/uxcore/starter-kit.git"
+  },
+  "scripts": {
+    "start": "nowa server",
+    "build": "nowa build"
+  },
+  "homepage": "",
+  "license": "MIT",
+  "dependencies": {
+    "classnames": "~2.1.2",
+    "i18n-helper": "~1.1.1",
+    "react-mixin": "~1.7.0"
+  },
+  "devDependencies": {
+    "nowa": "~0.1.5",
+    "nowa-server": "~0.1.10"
+  }
+}

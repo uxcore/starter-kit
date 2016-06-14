@@ -1,0 +1,25 @@
+{
+    "name": "starter-kit",
+    "builder": "@ali/builder-alinw",
+    "options": {
+        "type": "uxcore",
+        "template": "https://github.com/nowa-webpack/template-uxcore/archive/master.zip",
+        "npm": "npm",
+        "vars": {
+            "locale": "zh-cn",
+            "__LOCAL__": true
+        },
+        "buildvars": {
+            "locale": [ "zh-cn", "en" ]
+        },
+        "pages": true,
+        "libraries": {
+            "Uxcore": {
+                "output": "uxcore.js",
+                "mappings": {
+                    "Table": "uxcore-table@~1.5.1"
+                }
+            }
+        }
+    }
+}
