@@ -9,5 +9,5 @@
 module.exports = {
     'page1.demo': '演示',
     'i18n': '国际化支持',
-    'changeServer': ' 改变 `abc.json` 里的 `options.vars.locale` 为 `en`, 重启服务器，访问 serverip:port/?locale=zh-cn查看变化'
+    'changeServer': ' 改变 `abc.json` 里的 `options.vars.locale` 为 `en`, 重启服务器，访问 serverip:port/?locale=zh-cn 查看变化'
 };

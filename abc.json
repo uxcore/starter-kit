@@ -17,7 +17,9 @@
             "Uxcore": {
                 "output": "uxcore.js",
                 "mappings": {
-                    "Table": "uxcore-table@~1.5.1"
+                    "Table": "uxcore-table@~1.5.1",
+                    "Form": "uxcore-form@1.4.5",
+                    "Button": "uxcore-button@0.4.5"
                 }
             }
         }

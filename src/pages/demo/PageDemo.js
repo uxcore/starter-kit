@@ -54,6 +54,11 @@ class PageDemo extends React.Component {
                     <li>UXCore: <a href="http://uxco.re">http://uxco.re</a></li>
                     <li>Nowa: <a href="http://nowa-webpack.github.io/web/index.html?en">http://nowa-webpack.github.io</a></li>
                 </ul>
+                <h1>LINKS</h1>
+                <ul>
+                    <li>Form: <a href="/form.html">Form Demo</a></li>
+                    <li>Table: <a href="/table.html">Table Demo</a></li>
+                </ul>
             </div>
         );
     }
