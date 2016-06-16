@@ -4,95 +4,73 @@
 
 UXCore starter kit Powered by [Nowa](http://nowa-webpack.github.io/web/index.html?en)
 
-**如果你刚拿到这个项目，请先在项目目录下执行 `npm install`！**
+**RUN `npm install` first**
 
-## 项目相关链接
-
-- PRD：
-- DEMO：
-
-## 目录结构
+## Directory structure
 
 ```
 .
-├── abc.json  ------------------------- 项目构建配置文件
-├── favicon.ico  ---------------------- 页面图标
-├── html  ----------------------------- html目录
-│   └── index.html  ------------------- 入口页面
-├── package.json  --------------------- 项目配置
-├── README.md  ------------------------ 说明文件
-└── src  ------------------------------ 源码目录
-    ├── app  -------------------------- 项目级代码
-    │   ├── app.js  ------------------- 项目级脚本逻辑
-    │   ├── app.less  ----------------- 全局样式
-    ├── components  ------------------- 业务模块集合目录
-    ├── i18n  ------------------------- 国际化文案资源文件
+├── abc.json  ------------------------- nowa config file
+├── favicon.ico  ---------------------- favicon
+├── html  ----------------------------- html folder
+│   └── index.html  ------------------- project entry
+├── package.json  --------------------- npm config file
+├── README.md  ------------------------ readme
+└── src  ------------------------------ source folder
+    ├── app  -------------------------- project-level source
+    │   ├── app.js  ------------------- project-level javascript
+    │   ├── app.less  ----------------- project-level style
+    ├── components  ------------------- project components
+    ├── i18n  ------------------------- i18n folder
     │   ├── en.js
-    │   ├── index.js  ----------------- 国际化资源加载器
+    │   ├── index.js  ----------------- i18n loader
     │   └── zh-cn.js
-    ├── images  ----------------------- 图片资源目录
-    └── pages  ------------------------ 页面集合目录
-        └── demo  --------------------- 某一个页面
-            ├── index.js  ------------- 页面入口文件
-            ├── actions.js  ----------- 事件列表
-            ├── store.js  ------------- 存储器
-            ├── PageDemo.js  ---------- 页面视图逻辑
-            └── PageDemo.less  -------- 页面样式
+    ├── images  ----------------------- image folder
+    └── pages  ------------------------ page folder
+        └── demo  --------------------- some page
+            ├── index.js  ------------- entry file
+            ├── actions.js  ----------- reflux actions of the page
+            ├── store.js  ------------- reflux store of the page
+            ├── PageDemo.js  ---------- react view of the page
+            └── PageDemo.less  -------- style of the page
 ```
 
-## 环境准备
+## Commands
 
-具体请参考[这里](http://ux.alibaba.net/products/nowa.html)
-
-环境准备妥当之后，把项目clone下来，切换到对应分支。更新项目依赖：
-
-```
-npm install
-```
-
-更新完成后即可开始开发。
-
-## 常用命令
-
-- 启动调试服务器
+- development
 
 ```
 nowa server
 ```
 
-> 上面的命令会开启一个本地调试服务器（[http://localhost:3000/](http://localhost:3000/)）。此时，项目`src`目录下的任何文件的变化，都会触发实时构建，并把变更同步到浏览器。
+> this command will start a local server（[http://localhost:3000/](http://localhost:3000/) ）and watch the change of the source file.
 
-- 本地打包压缩
+- building for production
 
 ```
 nowa build
 ```
 
-- 增加新模块
+- add new component
 
 ```
 nowa init mod
 ```
 
-生成好之后可以在页面中 require 进去使用。
 
-- 增加新页面
+- add new page
 
 ```
 nowa init page
 ```
 
-生成好之后打开对应的页面即可访问。
-
-- 查看所有可用命令
+- see all the available commands that nowa supports
 
 ```
 nowa
 ```
 
 - git 命令
-
-[Git发布操作流程和日常使用技巧](http://ux.alibaba.net/docs/git-publish.html)
 
 - 更多命令和参数（端口、代理、依赖库、国际化、热构建、https……）
 
