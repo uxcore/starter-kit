@@ -19,7 +19,7 @@
     "react-mixin": "~1.7.0"
   },
   "devDependencies": {
-    "nowa": "~0.1.5",
-    "nowa-server": "~0.1.10"
+    "nowa": "^1.0.0",
+    "nowa-server": "^1.0.0"
   }
 }
