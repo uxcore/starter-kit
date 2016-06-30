@@ -40,7 +40,7 @@ UXCore starter kit Powered by [Nowa](http://nowa-webpack.github.io/web/index.htm
 - development
 
 ```
-nowa server
+npm start
 ```
 
 > this command will start a local server（[http://localhost:3000/](http://localhost:3000/) ）and watch the change of the source file.
@@ -48,35 +48,20 @@ nowa server
 - building for production
 
 ```
-nowa build
+npm run build
 ```
 
-- add new component
+- building uxcore
 
 ```
-nowa init mod
+npm run lib
 ```
-
-
-- add new page
-
-```
-nowa init page
-```
-
-- see all the available commands that nowa supports
-
-```
-nowa
-```
-
-- git 命令
 
 - 更多命令和参数（端口、代理、依赖库、国际化、热构建、https……）
 
 请查看 nowa 的官方文档：
 
-[https://www.npmjs.com/package/nowa](https://www.npmjs.com/package/nowa)
+[https://nowa-webpack.github.io/](https://nowa-webpack.github.io/)
 
 ## 页面引用资源列表
 

@@ -20,6 +20,8 @@
   },
   "devDependencies": {
     "nowa": "^1.0.0",
+    "nowa-build": "^1.0.0",
+    "nowa-lib": "^1.0.0",
     "nowa-server": "^1.0.0"
   }
 }
