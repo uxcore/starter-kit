@@ -8,7 +8,7 @@
     "url": "https://github.com/uxcore/starter-kit.git"
   },
   "scripts": {
-    "start": "nowa server",
+    "start": "nowa server --lazyload",
     "build": "nowa build"
   },
   "homepage": "",
@@ -22,6 +22,7 @@
     "nowa": "^1.0.0",
     "nowa-build": "^1.0.0",
     "nowa-lib": "^1.0.0",
-    "nowa-server": "^1.0.0"
+    "nowa-server": "^1.0.0",
+    "uxcore": "^0.3.1"
   }
 }

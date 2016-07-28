@@ -7,7 +7,11 @@ const i18n = require('i18n');
 const Actions = require('./actions');
 const Store = require('./store');
 
-const { Table } = Uxcore;
+// const { Table } = Uxcore;
+// const { Table } = require('uxcore');
+const Table = require('uxcore/lib/Table');
+const Button = require('uxcore/lib/Button');
+const React = require('react');
 
 class PageDemo extends React.Component {
 
@@ -59,6 +63,7 @@ class PageDemo extends React.Component {
                     <li>Form: <a href="/form.html">Form Demo</a></li>
                     <li>Table: <a href="/table.html">Table Demo</a></li>
                 </ul>
+                <Button>测试</Button>
             </div>
         );
     }
