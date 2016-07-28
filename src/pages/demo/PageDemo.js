@@ -7,9 +7,11 @@ const i18n = require('i18n');
 const Actions = require('./actions');
 const Store = require('./store');
 
-// const { Table } = Uxcore;
-// const { Table } = require('uxcore');
-const Table = require('uxcore/lib/Table');
+
+// component can be imported in the following three ways.
+// const { Table } = Uxcore; // import from global if cdn js or nowa customized bundle is served in HTML
+// const { Table } = require('uxcore'); // import from npm package uxcore
+const Table = require('uxcore/lib/Table'); // import specified component from npm package uxcore
 const Button = require('uxcore/lib/Button');
 const React = require('react');
 
