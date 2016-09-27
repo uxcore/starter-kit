@@ -209,7 +209,7 @@ render() {
 
 ## 数据层和模拟数据解决方案
 
-- 请参考 [NattyDB 官方文档](http://jias.github.io/natty-db/)。
+- 请参考 [NattyFetch 官方文档](https://github.com/Jias/natty-fetch)。
 
 ## 其他
 
