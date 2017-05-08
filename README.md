@@ -52,12 +52,7 @@ UXCore starter kit Powered by [Nowa](http://nowa-webpack.github.io/)
 
 <img src="doc/pic_1.png" />
 
-3、请点击 *命令集* 中的 *lib* 按钮
-
-该任务主要用于安装 uxcore 的 UI 组件，可能需要一些时间，请耐心等待。
-<img src="doc/pic_2.png" />
-
-4、点击 *启动* 按钮开启本地服务器并监听文件
+3、点击 *启动* 按钮开启本地服务器并监听文件
 
 <img src="doc/pic_3.png" />
 

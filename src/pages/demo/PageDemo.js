@@ -30,7 +30,7 @@ class PageDemo extends React.Component {
         Actions.fetch({
             workNo: '0001'
         }, function(data) {
-            console.log('data', data);
+            console.log(data);
         });
     }
 
@@ -38,7 +38,6 @@ class PageDemo extends React.Component {
         let renderCell = (cellData, rowData) => {
             return <span>{cellData}</span>
         };
-        console.log('this.state.content', this.state.content)
         let tableProps = {
             width: 900,
             jsxdata: {
