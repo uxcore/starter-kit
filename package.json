@@ -9,7 +9,8 @@
   },
   "scripts": {
     "start": "nowa server --lazyload",
-    "build": "nowa build"
+    "build": "nowa build",
+    "lib": "nowa lib"
   },
   "homepage": "",
   "license": "MIT",
@@ -19,10 +20,6 @@
     "react-mixin": "~1.7.0"
   },
   "devDependencies": {
-    "nowa": "^1.0.0",
-    "nowa-build": "^1.0.0",
-    "nowa-lib": "^1.0.0",
-    "nowa-server": "^1.0.0",
     "uxcore": "^0.3.1"
   }
 }
