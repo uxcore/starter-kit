@@ -11,6 +11,9 @@ UXCore starter kit Powered by [Nowa](http://nowa-webpack.github.io/)
 * [mac](https://alixux.org/downloads/nowa-gui.dmg)
 * [linux](https://alixux.org/downloads/nowa-gui.deb)
 
+或者使用 Nowa 的命令行版本：
+`npm install nowa -g`
+
 ## Directory structure
 
 ```
@@ -40,7 +43,7 @@ UXCore starter kit Powered by [Nowa](http://nowa-webpack.github.io/)
             └── PageDemo.less  -------- style of the page
 ```
 
-## Setup
+## Setup by NowaGUI
 
 1、 请打开 Nowa 工具并将项目拖入到工具界面。
 
@@ -57,6 +60,27 @@ UXCore starter kit Powered by [Nowa](http://nowa-webpack.github.io/)
 <img src="doc/pic_3.png" />
 
 启动成功后，可以直接点击 *访问* 按钮，工具会自动打开浏览器访问目标地址。
+
+## Setup by NowaCLI
+- 开发环境
+
+```
+npm start
+```
+
+- 生产环境打包
+
+```
+npm run build
+```
+
+- uxcore 资源打包
+
+```
+npm run lib
+```
+
+
 
 更多功能和参数（端口、代理、依赖库、国际化、热构建、https……）
 
