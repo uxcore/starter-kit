@@ -2,9 +2,17 @@
 
 ---
 
-UXCore starter kit Powered by [Nowa](http://nowa-webpack.github.io/web/index.html?en)
+UXCore starter kit Powered by [Nowa](http://nowa-webpack.github.io/)
 
-**RUN `npm install` first**
+<!-- **RUN `npm install` first** -->
+请先下载安装 Nowa .
+
+* [windows](https://alixux.org/downloads/nowa-gui.exe)
+* [mac](https://alixux.org/downloads/nowa-gui.dmg)
+* [linux](https://alixux.org/downloads/nowa-gui.deb)
+
+或者使用 Nowa 的命令行版本：
+`npm install nowa -g`
 
 ## Directory structure
 
@@ -35,33 +43,50 @@ UXCore starter kit Powered by [Nowa](http://nowa-webpack.github.io/web/index.htm
             └── PageDemo.less  -------- style of the page
 ```
 
-## Commands
+## Setup by NowaGUI
 
-- development
+1、 请打开 Nowa 工具并将项目拖入到工具界面。
+
+<img src="doc/pic_0.png" />
+
+2、 请选择合适的 npm 源地址安装项目所需依赖
+
+大陆用户请选择 taobao 源。点击提交按钮等待依赖安装结束。
+
+<img src="doc/pic_1.png" />
+
+3、点击 *启动* 按钮开启本地服务器并监听文件
+
+<img src="doc/pic_3.png" />
+
+启动成功后，可以直接点击 *访问* 按钮，工具会自动打开浏览器访问目标地址。
+
+## Setup by NowaCLI
+- 开发环境
 
 ```
 npm start
 ```
 
-> this command will start a local server（[http://localhost:3000/](http://localhost:3000/) ）and watch the change of the source file.
-
-- building for production
+- 生产环境打包
 
 ```
 npm run build
 ```
 
-- building uxcore
+- uxcore 资源打包
 
 ```
 npm run lib
 ```
 
-- 更多命令和参数（端口、代理、依赖库、国际化、热构建、https……）
+
+
+更多功能和参数（端口、代理、依赖库、国际化、热构建、https……）
 
 请查看 nowa 的官方文档：
 
-[https://nowa-webpack.github.io/](https://nowa-webpack.github.io/)
+[https://nowa-webpack.github.io/nowa](https://nowa-webpack.github.io/nowa)
 
 ## 页面引用资源列表
 

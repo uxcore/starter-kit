@@ -41,7 +41,7 @@ class PageDemo extends React.Component {
         let tableProps = {
             width: 900,
             jsxdata: {
-                data: this.state.content.list
+                data: this.state.content.list || []
             },
             jsxcolumns: [
                 {dataKey: 'workNo', title: '工号', width: 300, render: renderCell},
